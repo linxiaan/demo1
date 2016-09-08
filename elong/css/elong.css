@@ -1,0 +1,862 @@
+*{
+	margin: 0;
+	padding: 0 ;
+}
+ul,li{
+	list-style-type: none;
+
+}
+
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+     
+}
+a{
+	text-decoration: none;
+    color: #555;
+}
+.clear{
+	clear: both;
+}
+.top{
+	width: 1200px;
+	margin:20px auto;
+}
+.icons{
+	background-image: url(../img/el_com_t=201603210307.png);
+}
+ 
+ .icons-index{
+	   background-image: url(../img/icon_index.png);
+}
+.logo{
+	width: 130px;
+    height: 48px;
+    float: left;
+    background-position: -658px 0px;
+}
+.top-right{
+	float: right;
+}
+.top-right>div{
+	float: left;
+}
+.top-menus a{
+	float: left;
+	margin-right: 20px;
+	color: #ccc;
+	font-size: 12px;
+}
+.top-menus i{
+	/*display: inline-block;*/
+	
+	float: left;
+    border-right:1px solid #ccc;
+	width: 1px;
+    height: 12px;
+    position: relative;
+    top: 3px;
+    margin-left: -12px;
+	
+}
+.phone-box > div,.tel>div{
+	float: left;
+}
+.phone-box {
+	margin-right: 30px;
+}
+.phone{
+	background-image: url(../img/phone.gif);
+    width: 40px;
+    height: 40px;
+}
+.tel-pic{
+	background-image: url(../img/icon_2015.png);
+    width: 42px;
+    height: 42px;
+    background-position: -42px -2px;
+}
+.sanjiao2{
+	width: 0;
+	height: 0;
+	border-width: 5px;
+	border-color: blue transparent transparent transparent;
+    border-style: solid;
+    position: relative;
+    right: -100px;
+    top: -12px;
+}
+
+/*top结束*/
+.nav-box{
+	background-color: #2064c8;
+	 
+}
+
+.nav{
+	width: 1200px;
+	margin:0 auto;
+	height: 40px;
+	line-height: 40px;
+}
+.nav-left a{
+	position: relative;
+	
+	float: left;
+
+	padding:0 12px;
+	color: #fff;
+	border-right: 1px solid #3774ce;
+}
+.nav-left a:hover{
+	background-color: blue;
+}
+.nav-left a.active{
+	background-color: #003679;
+}
+.nav-left a i{
+	 display: inline-block;
+	 position: absolute;
+	 
+}
+.nav-left a i.guoji{
+ 
+ 	width: 21px;
+	height: 20px;
+	background-position: -509px 0;
+  	top: -9px;
+    right: 4px;
+
+}
+.nav-left a i.duanzu{
+	 
+ 	width: 41px;
+	height: 20px;
+	background-position: -470px -29px;
+	 top: -9px;
+    right: -4px;
+	 
+	 
+
+}.nav-left a i.qichep{
+	 
+ 	width: 39px;
+	height: 20px;
+	background-position: -426px -29px;
+	  top: -9px;
+  right: -4px; 
+	 
+	 
+
+}.nav-left a i.yongche{
+ 
+ 	width: 17px;
+	height: 20px;
+	background-position: -490px 0;
+	  top: -9px;
+  right: 5px; 
+	 
+	 
+
+}
+.nav-right{
+	float: right;
+}
+.nav-right  {
+	color: #fff;
+	 width: 120px;
+	 text-align: center;
+	 background-color: #003679;
+}
+.nav-right a{
+	color: #fff;
+}
+/*nav结束*/
+
+.banner-box{
+	width: 100%;
+	height: 380px;
+	 
+
+ 
+
+}
+.banner-pic {
+	width: 100%;
+	height: 380px;
+	 
+	background-image:url(http://img.elongstatic.com/index/bannerwrap/banner3_20160722.jpg);  
+    background-position: center;
+    
+}
+.banner-pic {
+	position:absolute;
+}
+ 
+
+.indicator {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.indicator li{
+	width: 24px;
+	height: 4px;
+	background-color: #000;
+    float: left;
+    margin-left: 5px;
+     
+
+}
+.form-box{
+	width: 1200px;
+	height: 300px;
+	margin:  0 auto ;
+	 
+}
+.form{
+	width: 600px;
+	height: 300px;
+	background-color: #fff;
+    position: relative;
+    top: 40px;
+     
+   
+}
+.form-left {
+	 float: left;
+	 width: 100px;
+	 height: 300px;
+}
+
+
+.form-left li a{
+	float: left;
+	/*display: inline-block;*/
+	width: 99px;
+	height: 59px;
+	line-height: 59px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.form-left a.last,.form-left a.shoujiapp{
+    border-bottom: none;
+}
+.form-left li i{
+	float: left;
+	height: 15px;
+    width: 15px;
+    left: 21px;
+    position: relative;
+    top: 23px;
+}
+.form-left li i.jiudian{
+	    background-position: -584px -345px;
+}
+.form-left li i.jipiao{
+		background-position: -582px -367px;
+}
+.form-left li i.huoche{
+	background-position: -584px -386px;
+    height: 16px;
+    width: 16px;
+}
+.form-left li i.shouji{
+    background-position: -581px -316px;
+    height: 19px;
+    width: 16px;
+}
+.form-left li a.active{
+	color: blue;
+	border-right: none;
+	
+	
+}
+
+.form-left li a.active i.jiudian{
+	background-position: -557px -345px;
+
+}
+.form-left li a.active i.jipiao{
+	background-position: -555px -367px;
+
+}
+.form-right{
+	width: 499px;
+	height: 300px;
+	float: right;
+}
+.rightbox{
+	margin: 0 auto;
+    width: 440px;
+
+}
+.form-right .jiudian{
+	width: 440px;
+    margin: 15px auto 0;
+    border-bottom: 2px solid #aaa;
+    height: 30px;
+    /*line-height: 30px;*/
+}
+.form-right .jiudian a{
+	text-align: center;
+	width: 90px;
+	height: 30px;
+	float: left;
+	position: relative;
+	
+}
+.form-right .jiudian i{
+	display: none;
+	position: absolute;
+	  bottom: 0;
+    left: 41px;
+	 
+	width: 0;
+	height: 0;
+	border-width: 4px;
+	border-style: solid;
+	border-color: transparent transparent blue;
+}
+.form-right .jiudian a:hover{
+    color: blue;
+ }
+.form-right .jiudian a.active{
+	color: blue;
+    border-bottom: 2px solid blue;
+ }
+ .form-right .jiudian a.active i{
+ 	display: block;
+ 	
+ }
+
+
+.form-right .midbox{
+	margin:20px 0;
+}
+.form-right .midbox input{
+	height: 30px;
+
+}
+.form-right .midbox span{
+	float: left;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	text-align: right;
+}
+.form-right .midbox .tuifang{
+	float: right;
+}
+.form-right .midbox .tuifang div{
+	display: inline-block;
+	width: 40px;
+	margin-right: -3px;
+}
+.form-right .midbox>div{
+	margin-bottom: 20px;
+}
+.form-right .midbox .mudidi4 input{
+	width: 366px;
+}
+.form-right .midbox .keyword input{
+	width: 366px;
+}
+.form-right .midbox .zhufang input{
+	width: 155px;
+}
+.form-right .midbox .ruzhu {
+	float: left;
+
+}
+.buttonbox button{
+	height: 32px;
+	line-height:32px;
+	text-align: center;
+	border-radius:3px;
+}
+.buttonbox button.btn1{
+	width: 159px;
+	background: #e55;
+	border:none;	
+	margin: 0 5px 0 70px;
+}
+.buttonbox button.btn1 a{
+	color: 	#fff;
+	font:16px Microsoft	yahei;
+}
+.buttonbox button.btn2{
+	width: 95px;
+    background: #fff;
+    border: 1px solid #ccc;	
+
+}
+.buttonbox button i.icon5,.buttonbox button i.icon6{
+	background-image:url(../img/icon_2015.png);
+}
+.buttonbox button i{
+	float: 	left;	
+}
+.buttonbox button i.icon5{
+    background-position: -432px -3px;
+    height: 18px;
+    width: 18px;
+    position:relative;
+    top: 6px;
+    left: 50px;
+	
+
+}
+.buttonbox button i.icon6{
+    background-position	: -455px -4px;
+	position:relative;	
+	top: 5px;	
+	left: 10px;	
+	height: 18px;
+    width: 14px;
+}
+.buttonbox button.btn2:hover a{
+	color:#fff;
+	 
+
+}
+.buttonbox button.btn2:hover {
+	 
+	background:blue;
+
+}
+.buttonbox button.btn2:hover i{
+	background-position:-455px -29px;	
+}
+
+    
+
+
+
+/*登录*/
+
+.pic-wp{
+	width: 1200px;
+	margin:0 auto;
+}
+
+.denglu-wp{
+	 
+	padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin:20px 0;
+    display: inline-block;
+     
+
+}
+.heart{
+	/*display: inline-block;*/
+	float: left;
+	background-position: -583px -16px;
+    height: 14px;
+    width: 14px;
+    background-image: url(../img/icon_index.png);
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+
+.hotel-pic ul li {
+	 
+    float: left;
+
+	
+	width: 171px;
+	height: 257px;
+}
+
+.hotel-pic a{
+	display: block;
+	width: 171px;
+	height: 257px;
+	background-position: center;
+}
+.hotel-pic h4{
+ 	width: 30px;
+ 	color: #fff;
+ 	font-size: 30px;
+ 	font-weight: normal;
+ 	margin: 0 auto ;
+ 	padding-top: 30px;
+ }
+
+.hotel-pic1{
+	
+	background-image:url(../img/20150422_ifold1.jpg);
+   
+}
+.hotel-pic2{
+	
+	background-image:url(../img/20150120_ifold2.jpg);
+   
+}
+
+.hotel-pic3{
+		background-image:url(../img/20150120_ifold3.jpg);
+
+}
+.hotel-pic4{
+	
+	background-image:url(../img/20150120_ifold4.jpg);
+   
+}
+.hotel-pic5{
+	
+	background-image:url(../img/20150120_ifold5.jpg);
+   
+}
+.hotel-pic6{
+	
+	background-image:url(../img/20150120_ifold6.jpg);
+   
+}
+.hotel-pic7{
+	
+	background-image:url(../img/20150120_ifold6.jpg);
+   
+}
+
+.mudidi{
+	
+	padding: 10px 0;
+	border-bottom: 2px solid  red;
+}
+.mudidi h2{
+	margin-top:30px;
+	display: inline-block;
+    color: red;
+}
+.guonei-box{
+	height: 50px;
+	line-height: 50px;
+}
+.guonei-box > div{
+	float: left;
+}
+.guonei-box i.guonei{
+  background-position: -576px -101px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.guonei-box a.word3{
+	float: left;
+	  font-size: 18px;
+	  line-height: 28px;
+
+}
+
+.guonei-right{
+ 	float: right;
+ }
+.guonei-title a{
+	float: left;
+	margin-left: 40px;
+    color: #555;
+    padding: 1px 10px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 14px;
+}
+.guonei-title a:hover{
+	color: #f66;
+	border: 1px solid #f66;
+	border-radius: 15px;
+	padding: 0 9px;
+}
+.guonei-title a.active{
+	background-color: #f66;
+	border: 1px solid #f66;
+	border-radius: 15px;
+	color: #fff;
+}
+.guonei-pic li{
+	float: left;
+    width: 290px;
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+     
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.guonei-pic li a {
+
+    position: relative;
+	background-image: url(../img/dgtq-hs.jpg);
+	display: block;
+	width: 290px;
+	height: 160px;
+	background-position: center;
+    
+}
+.pic-theme{
+	height: 40px;
+	line-height: 40px;
+	
+    width: 290px;
+}
+.guonei-pic li:hover{
+	border-bottom: 2px solid #f66;
+
+}
+.guonei-pic li:hover a{
+ 	background-position: bottom;
+}
+.pic-word{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+.ticket-form li{
+	width: 198px;
+    background: #f4f9ff;
+    border: 1px solid #d8e8fe;
+    height: 98px;
+    float: left;
+    margin-right: -1px;
+    
+
+}
+.ticket-form li:hover{
+	border: 1px solid blue;
+	border-bottom-width: 2px;
+	position: relative;
+	height: 97px;
+
+
+
+}
+.ticket-form li a{
+	color: #555;
+
+}
+.ticket-form i.plane{
+	display: inline-block;
+	background-position: -569px -163px;
+    width: 30px;
+    height: 20px;
+}
+.ticket-form  .div1,.ticket-form  .div2{
+	text-align: center;
+
+}
+.ticket-form  .div1{
+	margin-top: 20px;
+}
+.ticket-form  .div1 .city{
+	display: inline-block;
+	width: 70px;
+}
+.ticket-form  .div2{
+	margin-top: 20px;
+}
+.ticket-form  .div2  span {
+	 float: left;
+
+}
+.ticket-form  .div2 span.date{
+	width: 60px;
+	font: 12px Microsoft yahei;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+.ticket-form  .div2 span.price{
+	color: #f66;
+	margin-left: 12px;
+}
+.ticket-form  .div2 span.zhekou{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 5px;
+    background-color: #090;
+	font: 12px Microsoft yahei;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+/*旅游指南*/
+.tour-left ul,.tour-left-pic,.tour-right a{
+	float: left;
+
+}
+
+.tour-wp .tour{
+	color: #77cc11;
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #77cc11;
+    padding-bottom: 5px;
+}
+.tour-box li{
+	width: 210px;
+	height: 54px;
+	line-height: 54px;
+	border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+}
+.tour-left-pic{
+	margin-right: 20px;
+    width: 360px;
+    height: 220px; 
+}
+.tour-left-pic img{
+	width: 360px;
+    height: 220px; 
+    display: block;
+}
+.tour-right .word-lijiang{
+	line-height: 37px;
+	border-bottom:1px solid #ccc; 
+}
+.tour-right a.lijiang{
+	margin-right: 20px;
+}
+.tour-right a:hover{
+	color: #f66;
+	border-bottom:1px solid #77cc11; 
+
+    
+}
+/*底部*/
+.bottom-wp{
+	height: 185px;
+	width: 100%;
+	margin: 20px 0;
+	background: #f7f7f7;
+}
+.bottom-logo{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 20px 0;
+}
+.bottom-logo li,.bottom-logo li>div{
+	float: left;
+}
+.bottom-logo li{
+	height: 60px;
+	line-height: 60px;
+	width: 290px;
+}
+ .bottom-logo li>div.hotel3{
+    background-position: -91px -4px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.email-wp{
+	 
+	line-height: 80px;
+}
+.email-wp div{
+	float: left;
+}
+.email-pic:hover{
+	background-position: -384px -20px;
+    height: 80px;
+    width: 110px;
+}
+.email-pic {
+	background-position: -411px -20px;
+    height: 80px;
+    width: 80px;
+}
+.email{
+	margin-left: 266px;
+	position: absolute;
+}
+.service{
+	float: right;
+}
+.email input{
+	padding: 1px 5px;
+	    width: 200px;
+    height: 28px;
+    border: 1px solid #ccc;
+}
+.email input:focus{
+	outline: none;
+}
+.email button{
+	width: 80px;
+	height: 32px;
+    background: #3377dd;
+    color: #fff;
+    border: none;
+        position: relative;
+    left: -5px;
+}
+.footer-wp{
+	width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #EEE;
+}
+.footer{
+	width: 880px;
+    margin: 0 auto;
+}
+.footer>div{
+	float: left;
+	width: 193px;
+	margin-right: 27px;
+}
+.footer li{
+	width: 38%;
+    padding-left: 44%;
+}
+.footer .jiameng{
+	height: 18px;
+	padding-left: 10px;
+	    border-left: 3px solid #5D96C7;
+    margin-left: -13px;
+    font-size: 18px;
+        margin-bottom: 10px;
+    line-height: 18px;
+}
+.copyright{
+	text-align: center;
+	padding: 30px 0;
+}
+.copypic{
+	text-align: center;
+}
+.copypic1 {
+	display: inline-block;
+	width: 80px;
+	height: 37px;
+	background-position: -329px -436px;
+}
+.bottom-nav-wp{
+	background: #7c8fa2;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+.bottom-nav{
+	width: 1000px;
+	margin:0 auto;
+}
+.bottom-nav a{
+	text-align: center;
+	float: left;
+	width: 165px;
+}
+.bottom-nav a:hover{
+	background: #ccc;
+}
