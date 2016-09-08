@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>4</li>
+		<li>4</li>
+		<li>4</li>
+	</ul>
+	
+	<script>
+		
+		var list=document.getElementsByTagName('li');
+		list[1].style.color='red';
+		for (var i=0;i<list.length;i++){
+			list[i].style.color='red';
+
+		}
+
+		var arr1=[2,8,7,'2',3,8,6,2];
+		function uniq(arr){
+			var obj={},i=0,len=arr.length,key;
+			for(;i<len;i++){
+				obj[arr[i]]=arr[i];
+			}
+			console.log(obj);
+			arr.length=0;
+			for(key in obj){
+				arr.push(obj[key]);
+			}
+			return arr;
+		}
+		var r=uniq(arr1);
+		console.log(r);
+
+var str1='add',str2='fff';
+
+var arr['故宫','长城','颐和园'];
+console.log(arr);
+var arr = '故宫 长城 十三陵 十渡 圆明园 颐和园'.split(' ');
+
+
+	</script>
+</body>
+</html>
